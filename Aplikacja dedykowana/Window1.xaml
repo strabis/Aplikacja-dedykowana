@@ -1,0 +1,37 @@
+﻿<Window x:Class="Aplikacja_dedykowana.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplikacja_dedykowana"
+        mc:Ignorable="d"
+        Title="Aplikacja dedykowana" Height="450" Width="800">
+    <Grid Margin="-1,0,1,0">
+        <DataGrid HorizontalAlignment="Left" Height="165" Margin="95,146,0,0" VerticalAlignment="Top" Width="595"/>
+        <ComboBox Name="Combobox7" HorizontalAlignment="Left" Margin="614,32,0,0" VerticalAlignment="Top" Width="129">
+            <ComboBoxItem Content="Baza 1 /Linia 1"></ComboBoxItem>
+            <ComboBoxItem Content="Baza 2 /Linia 2"></ComboBoxItem>
+            <ComboBoxItem Content="Baza 3 /Linia "></ComboBoxItem>
+        </ComboBox>
+        <Label Content="Wybierz bazę" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="504,29,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.881,0.748"/>
+        <Button Content="Wczytaj" HorizontalAlignment="Left" Margin="633,83,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+        <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="385,37,0,0"/>
+        <Label Content="Wybierz datę" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="271,34,0,0" VerticalAlignment="Top"/>
+        <Button Content="Wybierz" HorizontalAlignment="Left" Margin="385,84,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+        <Button Content="Zapisz" HorizontalAlignment="Left" Margin="195,347,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+        <Label Content="Zapisz do pliku" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="75,342,0,0" VerticalAlignment="Top"/>
+        <Label Content="Wyniki" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="94,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.261,0.561"/>
+        <Button Content="Generuj" HorizontalAlignment="Left" Margin="418,348,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+        <Label Content="Wygeneruj raport" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="282,340,0,0" VerticalAlignment="Top"/>
+        <Button Content="Generuj" HorizontalAlignment="Left" Margin="645,350,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+        <Label Content="Wygeneruj wykres" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="504,342,0,0" VerticalAlignment="Top"/>
+        <Label Content="Wybierz parametry" FontSize="15" FontWeight="SemiBold" HorizontalAlignment="Left" Margin="3,29,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="Combobox5"  HorizontalAlignment="Left" Margin="151,37,0,0" VerticalAlignment="Top" Width="105">
+            <ComboBoxItem Content="Naciąg-V1/Obroty ślimaka"></ComboBoxItem>
+            <ComboBoxItem Content="Naciąg-V2/Obroty ślimaka"></ComboBoxItem>
+            <ComboBoxItem Content="Temp wytlaczarki / Temp wanny "></ComboBoxItem>
+        </ComboBox>
+        <Button Content="Wybierz" HorizontalAlignment="Left" Margin="156,85,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.634,-0.48"/>
+
+    </Grid>
+</Window>
